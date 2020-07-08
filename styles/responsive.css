@@ -1,0 +1,36 @@
+@media (max-width: 900px) {
+
+    .header-links a {
+        display:none;
+    }
+
+    .lanches-content li {
+        margin-bottom: 5px;
+        height: 120px;
+    }
+    .lanches-content li h2 {
+        font-size: 18px;
+    }
+
+    .logo {
+        text-align:center;
+        margin: 20px 0;
+    }
+
+    .logo p {
+        color: var(--white-color);
+    }
+
+    .logo a {
+        display:inline;
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 12px;
+    }
+    
+    .footer-content {
+        font-size: 10px;
+    }
+
+}

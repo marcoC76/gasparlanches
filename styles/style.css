@@ -1,0 +1,168 @@
+:root {
+    --black-color: #000;
+    --lightblack-color: #111111;
+    --yellow-color: #ECB346;
+    --white-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--lightblack-color);
+}
+
+header {
+    background-color: var(--black-color);
+}
+
+.header-content {
+    width:80%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-content img {
+    width:100px;
+    margin: 20px auto;
+    display:block;
+    text-align:center;
+}
+
+.logo a {
+    display:none;
+}
+
+
+
+.header-links {
+    margin: auto 0;
+}
+
+.header-links a {
+    color: var(--white-color);
+    text-decoration:none;
+    border: 2px solid var(--yellow-color);
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.header-links a:last-child {
+    margin: 0 0;
+}
+
+.header-links a:hover {
+    color: var(--black-color);
+    background-color: var(--yellow-color);
+}
+
+#links-left {
+    text-align: left;
+}
+
+#links-right {
+    text-align: right;
+}
+
+
+/** LANCHES **/
+
+.lanches h1 {
+    color: var(--white-color);
+    font-weight: 100;
+    text-align:center;
+    margin-top: 30px;
+}
+
+.lanches h1 strong {
+    color: var(--yellow-color);
+}
+
+.lanches-content {
+    width: 80%;
+    margin: 0 auto;
+    color:var(--white-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(75px, auto);
+
+}
+
+.lanches-content ul {
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+.lanches-content li {
+    margin-bottom: 5px;
+    height: 80px;
+    border-bottom: 1px dashed var(--white-color);
+}
+
+.lanches-content li span {
+    font-weight: 400;
+}
+
+.lanches-content li h2 {
+    font-weight: 700;
+    color: var(--yellow-color);
+}
+
+.lanches-content li p {
+    font-weight: 100;
+    font-size:12px;
+}
+
+.prices li {
+    text-align: right;
+    position: relative;
+}
+
+.prices li p {
+    position: absolute;
+    font-weight: 400;
+    font-size: 15px;
+    bottom:0;
+    right:0;
+}
+
+/**Footer**/
+
+footer {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-weight:100;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 20px 0;
+    width:80%;
+}
+
+.info {
+    text-align: left;
+}
+
+.other {
+    text-align: right;
+}
+
+.other span {
+    font-size: 10px;
+}
+
+.other a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+
+
+
