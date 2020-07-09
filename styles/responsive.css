@@ -18,15 +18,35 @@
     }
 
     .logo p {
+        display:block;
         color: var(--white-color);
     }
 
-    .logo a {
-        display:inline;
+    .logo button {
+        visibility: visible;
         color: white;
         text-decoration: none;
-        font-weight: 100;
+        font-weight: 700;
         font-size: 12px;
+        border: 2px solid var(--yellow-color);
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    .lanches h1 {
+        font-size:20px;
+    }
+
+    .info li {
+        margin: 20px 0;
+    }
+
+    .info li  p {
+        font-size:11px;
+    }
+
+    .prices li {
+        margin: 20px 0;
     }
     
     .footer-content {

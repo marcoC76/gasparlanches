@@ -1,0 +1,42 @@
+@media print {
+
+    @page
+    {
+        margin: 5cm;
+    }
+
+    .header-content img {
+        width:400px;
+    }
+
+    .logo p, .logo a {
+        font-size:20px;
+    }
+
+    .info li {
+        page-break-inside: avoid;
+    }
+
+    .prices li {
+        page-break-inside: avoid;
+    }
+
+    .lanches-content li {
+        height: 70px;
+    }
+
+
+    h1 {
+        margin-top:300px;
+        page-break-before: always;
+    }
+
+    .info p {
+        margin: 0;
+    }
+
+    footer {
+        display:none;
+    }
+
+}

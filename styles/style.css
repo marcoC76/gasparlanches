@@ -9,14 +9,7 @@
     margin: 0;
     padding:0;
     font-family: "Roboto", sans-serif;
-}
-
-body {
     background-color: var(--lightblack-color);
-}
-
-header {
-    background-color: var(--black-color);
 }
 
 .header-content {
@@ -33,11 +26,9 @@ header {
     text-align:center;
 }
 
-.logo a {
-    display:none;
+.logo button {
+    visibility:hidden;
 }
-
-
 
 .header-links {
     margin: auto 0;
@@ -62,6 +53,10 @@ header {
 
 #links-left {
     text-align: left;
+}
+
+.logo p {
+    display:none;
 }
 
 #links-right {
@@ -98,7 +93,7 @@ header {
 }
 
 .lanches-content li {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     height: 80px;
     border-bottom: 1px dashed var(--white-color);
 }
@@ -117,6 +112,18 @@ header {
     font-size:12px;
 }
 
+.info li {
+    position: relative;
+}
+
+.info li p {
+    position: absolute;
+    font-weight: 400;
+    font-size: 15px;
+    bottom:0;
+}
+
+
 .prices li {
     text-align: right;
     position: relative;
@@ -133,7 +140,6 @@ header {
 /**Footer**/
 
 footer {
-    background-color: var(--black-color);
     color: var(--white-color);
     font-weight:100;
 }
